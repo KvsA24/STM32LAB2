@@ -553,6 +553,7 @@ static void MX_GPIO_Init(void)
 //int status = 0;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
+	//Ex3
 	if((counter % 50) == 0)
 	{
 		/* Ex2
@@ -607,6 +608,13 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	{
 		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 		counter = 100;
+		/* Ex4
+		if(index_led >= MAX_LED)
+		{
+			index_led = 0;
+		}
+		update7SEG(index_led++);
+		 */
 	}
 	counter--;
 }
