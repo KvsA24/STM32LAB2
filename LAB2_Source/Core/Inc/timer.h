@@ -8,8 +8,6 @@
 #ifndef INC_TIMER_H_
 #define INC_TIMER_H_
 
-#ifndef TIMER_H_
-#define TIMER_H_
 void setTimer0();
 void setTimer1();
 void timer_run();
