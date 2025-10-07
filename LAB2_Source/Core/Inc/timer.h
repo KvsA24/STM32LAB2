@@ -1,9 +1,12 @@
 /*
  * timer.h
  *
- *  Created on: Oct 2, 2025
+ *  Created on: Oct 7, 2025
  *      Author: LENOVO
  */
+
+#ifndef INC_TIMER_H_
+#define INC_TIMER_H_
 
 #ifndef TIMER_H_
 #define TIMER_H_
@@ -19,5 +22,4 @@ extern int timer1_flag;
 extern int TIMER_CYCLE1;
 
 
-
-#endif /* TIMER_H_ */
+#endif /* INC_TIMER_H_ */
